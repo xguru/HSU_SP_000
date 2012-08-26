@@ -11,7 +11,7 @@ public class HelloWorldServlet extends HttpServlet {
       System.out.println("doGet!!!");
       response.setContentType("text/html");
       PrintWriter out = response.getWriter();
-      out.println("<html><body bgcolor=\"yellow\">Hello Servlet!</body></html>");
+      out.println("<html><body bgcolor=\"yellow\">Hello Servlet! [000]</body></html>");
    }
 
    public void destroy() {             // Servlet이 메모리에서 삭제될 때 한번만 호출
